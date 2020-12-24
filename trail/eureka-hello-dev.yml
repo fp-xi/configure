@@ -3,8 +3,8 @@ testConfig: firstTest
 spring:
   datasource:
     username: root
-    password: 1234
-    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    password: 123
+    url: jdbc:mysql://49.235.118.56:3306/fp?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
