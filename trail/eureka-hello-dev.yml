@@ -24,7 +24,8 @@ spring:
       connection-test-query: SELECT 1
 
 mybatis:
-  type-aliases-package: com.fp.eureka-hello.model
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.fp.eurekahello.model
   type-handlers-package: com.fp.eureka-hello.handler
   configuration:
     map-underscore-to-camel-case: true
