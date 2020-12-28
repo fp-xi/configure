@@ -1,6 +1,10 @@
 testConfig: firstTest
 
 spring:
+  redis:
+    host: 121.4.70.234
+    password:
+    port: 6379
   datasource:
     type: com.zaxxer.hikari.HikariDataSource #springBoot2.0后默认集成Hikari
     username: root
