@@ -2,7 +2,7 @@ testConfig: firstTest
 
 spring:
   redis:
-    host: 121.4.70.234
+    host: 49.235.118.56
     password:
     port: 6379
   datasource:
